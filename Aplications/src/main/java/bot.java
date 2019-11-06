@@ -7,7 +7,7 @@ import net.dv8tion.jda.api.JDABuilder;
 public class bot {
 
     public static void main(String[] args) throws Exception{
-        JDA jda = new JDABuilder("NjM3Mzk3NjM2MDMwMTM2MzY2.XbRq4A.Ko1KzjrX-dK2chaxLLwySR118TU").build();
+        JDA jda = new JDABuilder("bot-token-removed").build();
 
         jda.addEventListener(new papiez_event());
         jda.addEventListener(new papaj_ususn());
